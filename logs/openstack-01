@@ -1,0 +1,1515 @@
+Swarm master var : 0
+ - Creating Swarm slave
+Instantiating OpenStack driver...		 caCert=/home/hoeghh/.docker/machine/certs/ca.pem machineName=testswarm-01 privateKey=/home/hoeghh/.docker/machine/certs/ca-key.pem storePath=/home/hoeghh/.docker/machine/machines/testswarm-01
+Authenticating...		 AuthUrl=https://identity.api.zetta.io/v3 DomainID= DomainName=praqma Insecure=false TenantID= TenantName=standard Username=praqma
+Found floating IP pool id using its name		 ID=2acd57f2-a283-4f0f-86cf-1174afab1431 Name=Public
+Creating Key Pair...		 Name=testswarm-01-eb69927230b47e85c91174eaee4f8de3824a7556443ede063c7c39d9a2094b52
+Creating OpenStack instance...		 FlavorId=6 ImageId=e12ff7e3-9638-4b27-b050-616880d832af
+Creating machine...
+Waiting for the OpenStack instance to be ACTIVE...		 MachineId=90331569-d828-4131-ac73-d826d24104cb
+Looking for an available floating IP		 MachineId=90331569-d828-4131-ac73-d826d24104cb Pool=Public
+Available floating IP found		 IP=185.56.186.253 MachineId=90331569-d828-4131-ac73-d826d24104cb
+Assigning floating IP to the instance		 MachineId=90331569-d828-4131-ac73-d826d24104cb
+IP address found		 IP=185.56.186.253 MachineId=90331569-d828-4131-ac73-d826d24104cb
+Get status for OpenStack instance...		 MachineId=90331569-d828-4131-ac73-d826d24104cb
+State for OpenStack instance		 MachineId=90331569-d828-4131-ac73-d826d24104cb State=ACTIVE
+Getting to WaitForSSH function...
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Testing TCP connection to: 185.56.186.253:22
+Using SSH client type: external
+About to run SSH command:
+exit 0
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 exit 0] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: 
+Using SSH client type: external
+About to run SSH command:
+cat /etc/os-release
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 cat /etc/os-release] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: NAME="Ubuntu"
+VERSION="14.04, Trusty Tahr"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 14.04 LTS"
+VERSION_ID="14.04"
+HOME_URL="http://www.ubuntu.com/"
+SUPPORT_URL="http://help.ubuntu.com/"
+BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
+
+found compatible host: ubuntu
+Using SSH client type: external
+About to run SSH command:
+sudo hostname testswarm-01 && echo "testswarm-01" | sudo tee /etc/hostname
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 sudo hostname testswarm-01 && echo "testswarm-01" | sudo tee /etc/hostname] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: sudo: unable to resolve host testswarm-01
+sudo: unable to resolve host testswarm-01
+testswarm-01
+
+Using SSH client type: external
+About to run SSH command:
+if grep -xq 127.0.1.1.* /etc/hosts; then sudo sed -i 's/^127.0.1.1.*/127.0.1.1 testswarm-01/g' /etc/hosts; else echo '127.0.1.1 testswarm-01' | sudo tee -a /etc/hosts; fi
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 if grep -xq 127.0.1.1.* /etc/hosts; then sudo sed -i 's/^127.0.1.1.*/127.0.1.1 testswarm-01/g' /etc/hosts; else echo '127.0.1.1 testswarm-01' | sudo tee -a /etc/hosts; fi] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: sudo: unable to resolve host testswarm-01
+127.0.1.1 testswarm-01
+
+Using SSH client type: external
+About to run SSH command:
+sudo -E apt-get update
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 sudo -E apt-get update] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: Get:1 http://security.ubuntu.com trusty-security InRelease [64.4 kB]
+Get:2 http://security.ubuntu.com trusty-security/main Sources [101 kB]
+Ign http://az1.clouds.archive.ubuntu.com trusty InRelease
+Get:3 http://security.ubuntu.com trusty-security/universe Sources [31.9 kB]
+Get:4 http://az1.clouds.archive.ubuntu.com trusty-updates InRelease [64.4 kB]
+Get:5 http://security.ubuntu.com trusty-security/main amd64 Packages [382 kB]
+Hit http://az1.clouds.archive.ubuntu.com trusty Release.gpg
+Get:6 http://az1.clouds.archive.ubuntu.com trusty-updates/main Sources [247 kB]
+Get:7 http://security.ubuntu.com trusty-security/universe amd64 Packages [120 kB]
+Get:8 http://security.ubuntu.com trusty-security/main Translation-en [208 kB]
+Get:9 http://az1.clouds.archive.ubuntu.com trusty-updates/universe Sources [145 kB]
+Get:10 http://security.ubuntu.com trusty-security/universe Translation-en [70.1 kB]
+Get:11 http://az1.clouds.archive.ubuntu.com trusty-updates/main amd64 Packages [665 kB]
+Get:12 http://az1.clouds.archive.ubuntu.com trusty-updates/universe amd64 Packages [333 kB]
+Get:13 http://az1.clouds.archive.ubuntu.com trusty-updates/main Translation-en [329 kB]
+Get:14 http://az1.clouds.archive.ubuntu.com trusty-updates/universe Translation-en [174 kB]
+Hit http://az1.clouds.archive.ubuntu.com trusty Release
+Get:15 http://az1.clouds.archive.ubuntu.com trusty/main Sources [1,064 kB]
+Get:16 http://az1.clouds.archive.ubuntu.com trusty/universe Sources [6,399 kB]
+Hit http://az1.clouds.archive.ubuntu.com trusty/main amd64 Packages
+Hit http://az1.clouds.archive.ubuntu.com trusty/universe amd64 Packages
+Hit http://az1.clouds.archive.ubuntu.com trusty/main Translation-en
+Hit http://az1.clouds.archive.ubuntu.com trusty/universe Translation-en
+Ign http://az1.clouds.archive.ubuntu.com trusty/main Translation-en_US
+Ign http://az1.clouds.archive.ubuntu.com trusty/universe Translation-en_US
+Fetched 10.4 MB in 6s (1,497 kB/s)
+Reading package lists...
+
+Using SSH client type: external
+About to run SSH command:
+DEBIAN_FRONTEND=noninteractive sudo -E apt-get install -y  curl
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 DEBIAN_FRONTEND=noninteractive sudo -E apt-get install -y  curl] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  libcurl3
+The following packages will be upgraded:
+  curl libcurl3
+2 upgraded, 0 newly installed, 0 to remove and 191 not upgraded.
+Need to get 296 kB of archives.
+After this operation, 2,048 B of additional disk space will be used.
+Get:1 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty-updates/main curl amd64 7.35.0-1ubuntu2.5 [123 kB]
+Get:2 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty-updates/main libcurl3 amd64 7.35.0-1ubuntu2.5 [173 kB]
+Fetched 296 kB in 0s (334 kB/s)
+(Reading database ... 51065 files and directories currently installed.)
+Preparing to unpack .../curl_7.35.0-1ubuntu2.5_amd64.deb ...
+Unpacking curl (7.35.0-1ubuntu2.5) over (7.35.0-1ubuntu2) ...
+Preparing to unpack .../libcurl3_7.35.0-1ubuntu2.5_amd64.deb ...
+Unpacking libcurl3:amd64 (7.35.0-1ubuntu2.5) over (7.35.0-1ubuntu2) ...
+Processing triggers for man-db (2.6.7.1-1) ...
+Setting up libcurl3:amd64 (7.35.0-1ubuntu2.5) ...
+Setting up curl (7.35.0-1ubuntu2.5) ...
+Processing triggers for libc-bin (2.19-0ubuntu6) ...
+
+Using SSH client type: external
+About to run SSH command:
+if ! type docker; then curl -sSL https://get.docker.com | sh -; fi
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 if ! type docker; then curl -sSL https://get.docker.com | sh -; fi] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: bash: line 0: type: docker: not found
+modprobe: FATAL: Module aufs not found.
++ sudo -E sh -c sleep 3; apt-get update
+Ign http://az1.clouds.archive.ubuntu.com trusty InRelease
+Hit http://security.ubuntu.com trusty-security InRelease
+Hit http://az1.clouds.archive.ubuntu.com trusty-updates InRelease
+Hit http://security.ubuntu.com trusty-security/main Sources
+Hit http://az1.clouds.archive.ubuntu.com trusty Release.gpg
+Hit http://security.ubuntu.com trusty-security/universe Sources
+Hit http://az1.clouds.archive.ubuntu.com trusty-updates/main Sources
+Hit http://security.ubuntu.com trusty-security/main amd64 Packages
+Hit http://az1.clouds.archive.ubuntu.com trusty-updates/universe Sources
+Hit http://security.ubuntu.com trusty-security/universe amd64 Packages
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Hit http://az1.clouds.archive.ubuntu.com trusty-updates/main amd64 Packages
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Hit http://az1.clouds.archive.ubuntu.com trusty-updates/universe amd64 Packages
+Hit http://az1.clouds.archive.ubuntu.com trusty-updates/main Translation-en
+Hit http://az1.clouds.archive.ubuntu.com trusty-updates/universe Translation-en
+Hit http://az1.clouds.archive.ubuntu.com trusty Release
+Hit http://az1.clouds.archive.ubuntu.com trusty/main Sources
+Hit http://az1.clouds.archive.ubuntu.com trusty/universe Sources
+Hit http://az1.clouds.archive.ubuntu.com trusty/main amd64 Packages
+Hit http://az1.clouds.archive.ubuntu.com trusty/universe amd64 Packages
+Hit http://az1.clouds.archive.ubuntu.com trusty/main Translation-en
+Hit http://az1.clouds.archive.ubuntu.com trusty/universe Translation-en
+Ign http://az1.clouds.archive.ubuntu.com trusty/main Translation-en_US
+Ign http://az1.clouds.archive.ubuntu.com trusty/universe Translation-en_US
+Reading package lists...
++ sudo -E sh -c sleep 3; apt-get install -y -q linux-image-extra-3.13.0-29-generic linux-image-extra-virtual
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  crda iw libnl-3-200 libnl-genl-3-200 linux-firmware
+  linux-image-3.13.0-71-generic linux-image-extra-3.13.0-71-generic
+  linux-image-generic wireless-regdb
+Suggested packages:
+  fdutils linux-doc-3.13.0 linux-source-3.13.0 linux-tools
+  linux-headers-3.13.0-71-generic
+The following NEW packages will be installed:
+  crda iw libnl-3-200 libnl-genl-3-200 linux-firmware
+  linux-image-3.13.0-71-generic linux-image-extra-3.13.0-29-generic
+  linux-image-extra-3.13.0-71-generic linux-image-extra-virtual
+  linux-image-generic wireless-regdb
+0 upgraded, 11 newly installed, 0 to remove and 191 not upgraded.
+Need to get 113 MB of archives.
+After this operation, 432 MB of additional disk space will be used.
+Get:1 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty/main libnl-3-200 amd64 3.2.21-1 [44.5 kB]
+Get:2 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty/main libnl-genl-3-200 amd64 3.2.21-1 [10.2 kB]
+Get:3 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-image-3.13.0-71-generic amd64 3.13.0-71.114 [15.2 MB]
+Get:4 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty/main wireless-regdb all 2013.02.13-1ubuntu1 [6,456 B]
+Get:5 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty/main crda amd64 1.1.2-1ubuntu2 [15.2 kB]
+Get:6 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty/main iw amd64 3.4-1 [51.7 kB]
+Get:7 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-firmware all 1.127.19 [24.5 MB]
+Get:8 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-image-extra-3.13.0-29-generic amd64 3.13.0-29.53 [36.6 MB]
+Get:9 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-image-extra-3.13.0-71-generic amd64 3.13.0-71.114 [36.8 MB]
+Get:10 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-image-generic amd64 3.13.0.71.77 [2,346 B]
+Get:11 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-image-extra-virtual amd64 3.13.0.71.77 [1,764 B]
+Fetched 113 MB in 1min 33s (1,214 kB/s)
+Selecting previously unselected package libnl-3-200:amd64.
+(Reading database ... 51065 files and directories currently installed.)
+Preparing to unpack .../libnl-3-200_3.2.21-1_amd64.deb ...
+Unpacking libnl-3-200:amd64 (3.2.21-1) ...
+Selecting previously unselected package libnl-genl-3-200:amd64.
+Preparing to unpack .../libnl-genl-3-200_3.2.21-1_amd64.deb ...
+Unpacking libnl-genl-3-200:amd64 (3.2.21-1) ...
+Selecting previously unselected package linux-image-3.13.0-71-generic.
+Preparing to unpack .../linux-image-3.13.0-71-generic_3.13.0-71.114_amd64.deb ...
+Done.
+Unpacking linux-image-3.13.0-71-generic (3.13.0-71.114) ...
+Selecting previously unselected package wireless-regdb.
+Preparing to unpack .../wireless-regdb_2013.02.13-1ubuntu1_all.deb ...
+Unpacking wireless-regdb (2013.02.13-1ubuntu1) ...
+Selecting previously unselected package crda.
+Preparing to unpack .../crda_1.1.2-1ubuntu2_amd64.deb ...
+Unpacking crda (1.1.2-1ubuntu2) ...
+Selecting previously unselected package iw.
+Preparing to unpack .../archives/iw_3.4-1_amd64.deb ...
+Unpacking iw (3.4-1) ...
+Selecting previously unselected package linux-firmware.
+Preparing to unpack .../linux-firmware_1.127.19_all.deb ...
+Unpacking linux-firmware (1.127.19) ...
+Selecting previously unselected package linux-image-extra-3.13.0-29-generic.
+Preparing to unpack .../linux-image-extra-3.13.0-29-generic_3.13.0-29.53_amd64.deb ...
+Unpacking linux-image-extra-3.13.0-29-generic (3.13.0-29.53) ...
+Selecting previously unselected package linux-image-extra-3.13.0-71-generic.
+Preparing to unpack .../linux-image-extra-3.13.0-71-generic_3.13.0-71.114_amd64.deb ...
+Unpacking linux-image-extra-3.13.0-71-generic (3.13.0-71.114) ...
+Selecting previously unselected package linux-image-generic.
+Preparing to unpack .../linux-image-generic_3.13.0.71.77_amd64.deb ...
+Unpacking linux-image-generic (3.13.0.71.77) ...
+Selecting previously unselected package linux-image-extra-virtual.
+Preparing to unpack .../linux-image-extra-virtual_3.13.0.71.77_amd64.deb ...
+Unpacking linux-image-extra-virtual (3.13.0.71.77) ...
+Processing triggers for man-db (2.6.7.1-1) ...
+Setting up libnl-3-200:amd64 (3.2.21-1) ...
+Setting up libnl-genl-3-200:amd64 (3.2.21-1) ...
+Setting up linux-image-3.13.0-71-generic (3.13.0-71.114) ...
+Running depmod.
+update-initramfs: deferring update (hook will be called later)
+Examining /etc/kernel/postinst.d.
+run-parts: executing /etc/kernel/postinst.d/apt-auto-removal 3.13.0-71-generic /boot/vmlinuz-3.13.0-71-generic
+run-parts: executing /etc/kernel/postinst.d/initramfs-tools 3.13.0-71-generic /boot/vmlinuz-3.13.0-71-generic
+update-initramfs: Generating /boot/initrd.img-3.13.0-71-generic
+run-parts: executing /etc/kernel/postinst.d/update-notifier 3.13.0-71-generic /boot/vmlinuz-3.13.0-71-generic
+run-parts: executing /etc/kernel/postinst.d/x-grub-legacy-ec2 3.13.0-71-generic /boot/vmlinuz-3.13.0-71-generic
+Searching for GRUB installation directory ... found: /boot/grub
+Searching for default file ... found: /boot/grub/default
+Testing for an existing GRUB menu.lst file ... found: /boot/grub/menu.lst
+Searching for splash image ... none found, skipping ...
+Found kernel: /boot/vmlinuz-3.13.0-71-generic
+Found kernel: /boot/vmlinuz-3.13.0-29-generic
+Updating /boot/grub/menu.lst ... done
+
+run-parts: executing /etc/kernel/postinst.d/zz-update-grub 3.13.0-71-generic /boot/vmlinuz-3.13.0-71-generic
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-3.13.0-71-generic
+Found initrd image: /boot/initrd.img-3.13.0-71-generic
+Found linux image: /boot/vmlinuz-3.13.0-29-generic
+Found initrd image: /boot/initrd.img-3.13.0-29-generic
+done
+Setting up wireless-regdb (2013.02.13-1ubuntu1) ...
+Setting up crda (1.1.2-1ubuntu2) ...
+Setting up iw (3.4-1) ...
+Setting up linux-firmware (1.127.19) ...
+Setting up linux-image-extra-3.13.0-29-generic (3.13.0-29.53) ...
+Running depmod.
+update-initramfs: deferring update (hook will be called later)
+Examining /etc/kernel/postinst.d.
+run-parts: executing /etc/kernel/postinst.d/apt-auto-removal 3.13.0-29-generic /boot/vmlinuz-3.13.0-29-generic
+run-parts: executing /etc/kernel/postinst.d/initramfs-tools 3.13.0-29-generic /boot/vmlinuz-3.13.0-29-generic
+update-initramfs: Generating /boot/initrd.img-3.13.0-29-generic
+run-parts: executing /etc/kernel/postinst.d/update-notifier 3.13.0-29-generic /boot/vmlinuz-3.13.0-29-generic
+run-parts: executing /etc/kernel/postinst.d/x-grub-legacy-ec2 3.13.0-29-generic /boot/vmlinuz-3.13.0-29-generic
+Searching for GRUB installation directory ... found: /boot/grub
+Searching for default file ... found: /boot/grub/default
+Testing for an existing GRUB menu.lst file ... found: /boot/grub/menu.lst
+Searching for splash image ... none found, skipping ...
+Found kernel: /boot/vmlinuz-3.13.0-71-generic
+Found kernel: /boot/vmlinuz-3.13.0-29-generic
+Updating /boot/grub/menu.lst ... done
+
+run-parts: executing /etc/kernel/postinst.d/zz-update-grub 3.13.0-29-generic /boot/vmlinuz-3.13.0-29-generic
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-3.13.0-71-generic
+Found initrd image: /boot/initrd.img-3.13.0-71-generic
+Found linux image: /boot/vmlinuz-3.13.0-29-generic
+Found initrd image: /boot/initrd.img-3.13.0-29-generic
+done
+Setting up linux-image-extra-3.13.0-71-generic (3.13.0-71.114) ...
+run-parts: executing /etc/kernel/postinst.d/apt-auto-removal 3.13.0-71-generic /boot/vmlinuz-3.13.0-71-generic
+run-parts: executing /etc/kernel/postinst.d/initramfs-tools 3.13.0-71-generic /boot/vmlinuz-3.13.0-71-generic
+update-initramfs: Generating /boot/initrd.img-3.13.0-71-generic
+run-parts: executing /etc/kernel/postinst.d/update-notifier 3.13.0-71-generic /boot/vmlinuz-3.13.0-71-generic
+run-parts: executing /etc/kernel/postinst.d/x-grub-legacy-ec2 3.13.0-71-generic /boot/vmlinuz-3.13.0-71-generic
+Searching for GRUB installation directory ... found: /boot/grub
+Searching for default file ... found: /boot/grub/default
+Testing for an existing GRUB menu.lst file ... found: /boot/grub/menu.lst
+Searching for splash image ... none found, skipping ...
+Found kernel: /boot/vmlinuz-3.13.0-71-generic
+Found kernel: /boot/vmlinuz-3.13.0-29-generic
+Updating /boot/grub/menu.lst ... done
+
+run-parts: executing /etc/kernel/postinst.d/zz-update-grub 3.13.0-71-generic /boot/vmlinuz-3.13.0-71-generic
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-3.13.0-71-generic
+Found initrd image: /boot/initrd.img-3.13.0-71-generic
+Found linux image: /boot/vmlinuz-3.13.0-29-generic
+Found initrd image: /boot/initrd.img-3.13.0-29-generic
+done
+Setting up linux-image-generic (3.13.0.71.77) ...
+Setting up linux-image-extra-virtual (3.13.0.71.77) ...
+Processing triggers for libc-bin (2.19-0ubuntu6) ...
+apparmor is enabled in the kernel and apparmor utils were already installed
++ sudo -E sh -c apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+Executing: gpg --ignore-time-conflict --no-options --no-default-keyring --homedir /tmp/tmp.xioWgvYMRg --no-auto-check-trustdb --trust-model always --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+gpg: requesting key 2C52609D from hkp server p80.pool.sks-keyservers.net
+gpg: key 2C52609D: public key "Docker Release Tool (releasedocker) <docker@docker.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
++ sudo -E sh -c mkdir -p /etc/apt/sources.list.d
++ sudo -E sh -c echo deb https://apt.dockerproject.org/repo ubuntu-trusty main > /etc/apt/sources.list.d/docker.list
++ sudo -E sh -c sleep 3; apt-get update; apt-get install -y -q docker-engine
+Hit http://security.ubuntu.com trusty-security InRelease
+Ign http://az1.clouds.archive.ubuntu.com trusty InRelease
+Hit http://security.ubuntu.com trusty-security/main Sources
+Get:1 http://az1.clouds.archive.ubuntu.com trusty-updates InRelease [64.4 kB]
+Hit http://security.ubuntu.com trusty-security/universe Sources
+Hit http://security.ubuntu.com trusty-security/main amd64 Packages
+Hit http://security.ubuntu.com trusty-security/universe amd64 Packages
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Hit http://az1.clouds.archive.ubuntu.com trusty Release.gpg
+Get:2 http://az1.clouds.archive.ubuntu.com trusty-updates/main Sources [247 kB]
+Get:3 http://az1.clouds.archive.ubuntu.com trusty-updates/universe Sources [145 kB]
+Get:4 http://az1.clouds.archive.ubuntu.com trusty-updates/main amd64 Packages [665 kB]
+Get:5 https://apt.dockerproject.org ubuntu-trusty InRelease
+Ign https://apt.dockerproject.org ubuntu-trusty InRelease
+Get:6 https://apt.dockerproject.org ubuntu-trusty Release
+Get:7 https://apt.dockerproject.org ubuntu-trusty/main amd64 Packages
+Get:8 https://apt.dockerproject.org ubuntu-trusty/main Translation-en_US
+Ign https://apt.dockerproject.org ubuntu-trusty/main Translation-en_US
+Ign https://apt.dockerproject.org ubuntu-trusty/main Translation-en
+Get:9 http://az1.clouds.archive.ubuntu.com trusty-updates/universe amd64 Packages [333 kB]
+Hit http://az1.clouds.archive.ubuntu.com trusty-updates/main Translation-en
+Hit http://az1.clouds.archive.ubuntu.com trusty-updates/universe Translation-en
+Hit http://az1.clouds.archive.ubuntu.com trusty Release
+Hit http://az1.clouds.archive.ubuntu.com trusty/main Sources
+Hit http://az1.clouds.archive.ubuntu.com trusty/universe Sources
+Hit http://az1.clouds.archive.ubuntu.com trusty/main amd64 Packages
+Hit http://az1.clouds.archive.ubuntu.com trusty/universe amd64 Packages
+Hit http://az1.clouds.archive.ubuntu.com trusty/main Translation-en
+Hit http://az1.clouds.archive.ubuntu.com trusty/universe Translation-en
+Ign http://az1.clouds.archive.ubuntu.com trusty/main Translation-en_US
+Ign http://az1.clouds.archive.ubuntu.com trusty/universe Translation-en_US
+Fetched 1,478 kB in 7s (191 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  aufs-tools cgroup-lite git git-man liberror-perl
+Suggested packages:
+  git-daemon-run git-daemon-sysvinit git-doc git-el git-email git-gui gitk
+  gitweb git-arch git-bzr git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  aufs-tools cgroup-lite docker-engine git git-man liberror-perl
+0 upgraded, 6 newly installed, 0 to remove and 191 not upgraded.
+Need to get 10.9 MB of archives.
+After this operation, 60.0 MB of additional disk space will be used.
+Get:1 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty/universe aufs-tools amd64 1:3.2+20130722-1.1 [92.3 kB]
+Get:2 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty/main liberror-perl all 0.17-1.1 [21.1 kB]
+Get:3 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty-updates/main git-man all 1:1.9.1-1ubuntu0.1 [698 kB]
+Get:4 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty-updates/main git amd64 1:1.9.1-1ubuntu0.1 [2,627 kB]
+Get:5 http://az1.clouds.archive.ubuntu.com/ubuntu/ trusty/main cgroup-lite all 1.9 [3,918 B]
+Fetched 10.9 MB in 11s (929 kB/s)
+Selecting previously unselected package aufs-tools.
+(Reading database ... 60861 files and directories currently installed.)
+Preparing to unpack .../aufs-tools_1%3a3.2+20130722-1.1_amd64.deb ...
+Unpacking aufs-tools (1:3.2+20130722-1.1) ...
+Selecting previously unselected package liberror-perl.
+Preparing to unpack .../liberror-perl_0.17-1.1_all.deb ...
+Unpacking liberror-perl (0.17-1.1) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a1.9.1-1ubuntu0.1_all.deb ...
+Unpacking git-man (1:1.9.1-1ubuntu0.1) ...
+Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a1.9.1-1ubuntu0.1_amd64.deb ...
+Unpacking git (1:1.9.1-1ubuntu0.1) ...
+Selecting previously unselected package cgroup-lite.
+Preparing to unpack .../cgroup-lite_1.9_all.deb ...
+Unpacking cgroup-lite (1.9) ...
+Selecting previously unselected package docker-engine.
+Preparing to unpack .../docker-engine_1.9.1-0~trusty_amd64.deb ...
+Unpacking docker-engine (1.9.1-0~trusty) ...
+Processing triggers for man-db (2.6.7.1-1) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+Setting up aufs-tools (1:3.2+20130722-1.1) ...
+Setting up liberror-perl (0.17-1.1) ...
+Setting up git-man (1:1.9.1-1ubuntu0.1) ...
+Setting up git (1:1.9.1-1ubuntu0.1) ...
+Setting up cgroup-lite (1.9) ...
+cgroup-lite start/running
+Setting up docker-engine (1.9.1-0~trusty) ...
+docker start/running, process 29513
+Processing triggers for libc-bin (2.19-0ubuntu6) ...
+Processing triggers for ureadahead (0.100.0-16) ...
++ sudo -E sh -c docker version
+Client:
+ Version:      1.9.1
+ API version:  1.21
+ Go version:   go1.4.2
+ Git commit:   a34a1d5
+ Built:        Fri Nov 20 13:12:04 UTC 2015
+ OS/Arch:      linux/amd64
+
+Server:
+ Version:      1.9.1
+ API version:  1.21
+ Go version:   go1.4.2
+ Git commit:   a34a1d5
+ Built:        Fri Nov 20 13:12:04 UTC 2015
+ OS/Arch:      linux/amd64
+
+If you would like to use Docker as a non-root user, you should now consider
+adding your user to the "docker" group with something like:
+
+  sudo usermod -aG docker ubuntu
+
+Remember that you will have to log out and back in for this to take effect!
+
+
+Using SSH client type: external
+About to run SSH command:
+sudo docker version
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 sudo docker version] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: Client:
+ Version:      1.9.1
+ API version:  1.21
+ Go version:   go1.4.2
+ Git commit:   a34a1d5
+ Built:        Fri Nov 20 13:12:04 UTC 2015
+ OS/Arch:      linux/amd64
+
+Server:
+ Version:      1.9.1
+ API version:  1.21
+ Go version:   go1.4.2
+ Git commit:   a34a1d5
+ Built:        Fri Nov 20 13:12:04 UTC 2015
+ OS/Arch:      linux/amd64
+
+Using SSH client type: external
+About to run SSH command:
+sudo mkdir -p /etc/docker
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 sudo mkdir -p /etc/docker] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: 
+generating server cert: /home/hoeghh/.docker/machine/machines/testswarm-01/server.pem ca-key=/home/hoeghh/.docker/machine/certs/ca.pem private-key=/home/hoeghh/.docker/machine/certs/ca-key.pem org=testswarm-01
+Using SSH client type: external
+About to run SSH command:
+sudo service docker stop
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 sudo service docker stop] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: docker stop/waiting
+
+Using SSH client type: external
+About to run SSH command:
+printf '%s' '-----BEGIN CERTIFICATE-----
+MIICyzCCAbWgAwIBAgIQX5esiCEqw3n0yW9E4hxrizALBgkqhkiG9w0BAQswETEP
+MA0GA1UEChMGaG9lZ2hoMB4XDTE1MDcxNzA4MzUwMFoXDTE4MDcwMTA4MzUwMFow
+ETEPMA0GA1UEChMGaG9lZ2hoMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAsllsHhTwXHvR+hLqh2TEyNxiphHjWMOOvvP4BS6vIENity2UNlJqErpDDzvq
+QqCqPLhz50rAUUsq7REuAbDMeVrdSiiUn6Mimv6a+77wmbofYopkPT/07AqN9pIx
+KUmALGp8nOTZ1shZ8M+6j8fXe0L7jQBVrX0HikfaLH9+uTJlyX+nq1BOPLuLuwbT
++ic4pIJLkj9MLEH2DtjUjkxOXWJkwz1pORnHp6g8BMm7Q4eFQhtWzOeriepgqZd+
+gY0jEMvsxICqboRAhm6sQjfjStRvu85jW646gMmQpvFout31IJWDNlWkCFvkGQnB
++WKECwWriqjSAccfKZpVMG3RsQIDAQABoyMwITAOBgNVHQ8BAf8EBAMCAKwwDwYD
+VR0TAQH/BAUwAwEB/zALBgkqhkiG9w0BAQsDggEBAFZk2Bs+czC4A6SiYedPfpYy
+CuFSX6d8r0RxZW09rEmPUFZkDxYYZqtPYAh+kJ4t/usxXwo5ABALwxGetO3ALsnY
+GK084foGAak/E20LvYDCRFkqnpLFpBJM4fo14zD3ghlD4sXS8hi3xLnu8IBXhDMm
+OY1h4lBxusXWeNatq7mQ0FiyQZVAu3iCUELV666pcgDMmeVuxd0uWbn4ykRXIG04
+4BD5RuJFu52eI3BnEhsmvD93WGYReV3BG4hsgIg4rMuwH3DMAT+D8zIDeVzhMjcl
+Y58q1S+1373Hr3eycjc0Z+MupXaC9GWy9QxjI04rgfWkS+bCvSSZbBxvNYILATY=
+-----END CERTIFICATE-----
+' | sudo tee /etc/docker/ca.pem
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 printf '%s' '-----BEGIN CERTIFICATE-----
+MIICyzCCAbWgAwIBAgIQX5esiCEqw3n0yW9E4hxrizALBgkqhkiG9w0BAQswETEP
+MA0GA1UEChMGaG9lZ2hoMB4XDTE1MDcxNzA4MzUwMFoXDTE4MDcwMTA4MzUwMFow
+ETEPMA0GA1UEChMGaG9lZ2hoMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAsllsHhTwXHvR+hLqh2TEyNxiphHjWMOOvvP4BS6vIENity2UNlJqErpDDzvq
+QqCqPLhz50rAUUsq7REuAbDMeVrdSiiUn6Mimv6a+77wmbofYopkPT/07AqN9pIx
+KUmALGp8nOTZ1shZ8M+6j8fXe0L7jQBVrX0HikfaLH9+uTJlyX+nq1BOPLuLuwbT
++ic4pIJLkj9MLEH2DtjUjkxOXWJkwz1pORnHp6g8BMm7Q4eFQhtWzOeriepgqZd+
+gY0jEMvsxICqboRAhm6sQjfjStRvu85jW646gMmQpvFout31IJWDNlWkCFvkGQnB
++WKECwWriqjSAccfKZpVMG3RsQIDAQABoyMwITAOBgNVHQ8BAf8EBAMCAKwwDwYD
+VR0TAQH/BAUwAwEB/zALBgkqhkiG9w0BAQsDggEBAFZk2Bs+czC4A6SiYedPfpYy
+CuFSX6d8r0RxZW09rEmPUFZkDxYYZqtPYAh+kJ4t/usxXwo5ABALwxGetO3ALsnY
+GK084foGAak/E20LvYDCRFkqnpLFpBJM4fo14zD3ghlD4sXS8hi3xLnu8IBXhDMm
+OY1h4lBxusXWeNatq7mQ0FiyQZVAu3iCUELV666pcgDMmeVuxd0uWbn4ykRXIG04
+4BD5RuJFu52eI3BnEhsmvD93WGYReV3BG4hsgIg4rMuwH3DMAT+D8zIDeVzhMjcl
+Y58q1S+1373Hr3eycjc0Z+MupXaC9GWy9QxjI04rgfWkS+bCvSSZbBxvNYILATY=
+-----END CERTIFICATE-----
+' | sudo tee /etc/docker/ca.pem] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: -----BEGIN CERTIFICATE-----
+MIICyzCCAbWgAwIBAgIQX5esiCEqw3n0yW9E4hxrizALBgkqhkiG9w0BAQswETEP
+MA0GA1UEChMGaG9lZ2hoMB4XDTE1MDcxNzA4MzUwMFoXDTE4MDcwMTA4MzUwMFow
+ETEPMA0GA1UEChMGaG9lZ2hoMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAsllsHhTwXHvR+hLqh2TEyNxiphHjWMOOvvP4BS6vIENity2UNlJqErpDDzvq
+QqCqPLhz50rAUUsq7REuAbDMeVrdSiiUn6Mimv6a+77wmbofYopkPT/07AqN9pIx
+KUmALGp8nOTZ1shZ8M+6j8fXe0L7jQBVrX0HikfaLH9+uTJlyX+nq1BOPLuLuwbT
++ic4pIJLkj9MLEH2DtjUjkxOXWJkwz1pORnHp6g8BMm7Q4eFQhtWzOeriepgqZd+
+gY0jEMvsxICqboRAhm6sQjfjStRvu85jW646gMmQpvFout31IJWDNlWkCFvkGQnB
++WKECwWriqjSAccfKZpVMG3RsQIDAQABoyMwITAOBgNVHQ8BAf8EBAMCAKwwDwYD
+VR0TAQH/BAUwAwEB/zALBgkqhkiG9w0BAQsDggEBAFZk2Bs+czC4A6SiYedPfpYy
+CuFSX6d8r0RxZW09rEmPUFZkDxYYZqtPYAh+kJ4t/usxXwo5ABALwxGetO3ALsnY
+GK084foGAak/E20LvYDCRFkqnpLFpBJM4fo14zD3ghlD4sXS8hi3xLnu8IBXhDMm
+OY1h4lBxusXWeNatq7mQ0FiyQZVAu3iCUELV666pcgDMmeVuxd0uWbn4ykRXIG04
+4BD5RuJFu52eI3BnEhsmvD93WGYReV3BG4hsgIg4rMuwH3DMAT+D8zIDeVzhMjcl
+Y58q1S+1373Hr3eycjc0Z+MupXaC9GWy9QxjI04rgfWkS+bCvSSZbBxvNYILATY=
+-----END CERTIFICATE-----
+
+Using SSH client type: external
+About to run SSH command:
+printf '%s' '-----BEGIN CERTIFICATE-----
+MIIC/zCCAemgAwIBAgIRANQZEYUqWKydg4rJljczMXowCwYJKoZIhvcNAQELMBEx
+DzANBgNVBAoTBmhvZWdoaDAeFw0xNTEyMTQxMTQ2MDBaFw0xODExMjgxMTQ2MDBa
+MBcxFTATBgNVBAoTDHRlc3Rzd2FybS0wMTCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMfzHcuMt5GmGmdUJZxrpRgWADUruutTpoAnhiikYcOQsfXMGuLk
+N7wGpKSngsIvpIESnGaQuasOVFYeVQuPvrhGMTANx5ugaeqzjxy4u8kySArDFXLt
+T15Fut5pwiUXPEJxHOfCvooeGDClhIUtqMaVFwrl5clh2JDZSyVE1T7/B2hB5Ngq
+YLH0NJlTbHzG8t39LVuQu0ldPzkx5L7EoDSemm5YZ5xhWVy8zoj5ObPHRPZq4rQO
+ZKVCaSgtXFG2R9AAYD4+UE3v7z0bIH9LdlNR5UqIOan1W9rk9QYPObuSO3Tc57cd
+Xo/0P1+zDR/ZISg9fH77o3lQ+jtbSx2gbjMCAwEAAaNQME4wDgYDVR0PAQH/BAQD
+AgCoMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAMBgNVHRMBAf8EAjAA
+MA8GA1UdEQQIMAaHBLk4uv0wCwYJKoZIhvcNAQELA4IBAQAFnRr2qniTefeW2bBE
+u6pBI6soi4m3rLjToZX+SWNQEgH6gqD/hUJ8jMwt5VRl6OOlyHbH8M+qYR8bhKGf
+bX99BqSOZPYWS58Yf6IWxY8QqULuwdJGBKGDsNXGBJAU1qDHLrTRbcC/R8RtEAPI
+tSpNohSTeSQd3eyzXVVrYClvHy37F73EfZsEKg/VcNEa/P6ow0laLPasCYHDeFUn
+kxVQvmqTpTcJSk//c//TDcCAZt9n2YT0C1dM6I9bhjQQpYElL1njwI+g4QOgrPN4
+bwHCc+1SpkcIrgN7Rgohw0zN3QX4z9YCOHR1/Bm0hZ0z3PYd2+7wsAAxJeX9apBR
+1Ssg
+-----END CERTIFICATE-----
+' | sudo tee /etc/docker/server.pem
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 printf '%s' '-----BEGIN CERTIFICATE-----
+MIIC/zCCAemgAwIBAgIRANQZEYUqWKydg4rJljczMXowCwYJKoZIhvcNAQELMBEx
+DzANBgNVBAoTBmhvZWdoaDAeFw0xNTEyMTQxMTQ2MDBaFw0xODExMjgxMTQ2MDBa
+MBcxFTATBgNVBAoTDHRlc3Rzd2FybS0wMTCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMfzHcuMt5GmGmdUJZxrpRgWADUruutTpoAnhiikYcOQsfXMGuLk
+N7wGpKSngsIvpIESnGaQuasOVFYeVQuPvrhGMTANx5ugaeqzjxy4u8kySArDFXLt
+T15Fut5pwiUXPEJxHOfCvooeGDClhIUtqMaVFwrl5clh2JDZSyVE1T7/B2hB5Ngq
+YLH0NJlTbHzG8t39LVuQu0ldPzkx5L7EoDSemm5YZ5xhWVy8zoj5ObPHRPZq4rQO
+ZKVCaSgtXFG2R9AAYD4+UE3v7z0bIH9LdlNR5UqIOan1W9rk9QYPObuSO3Tc57cd
+Xo/0P1+zDR/ZISg9fH77o3lQ+jtbSx2gbjMCAwEAAaNQME4wDgYDVR0PAQH/BAQD
+AgCoMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAMBgNVHRMBAf8EAjAA
+MA8GA1UdEQQIMAaHBLk4uv0wCwYJKoZIhvcNAQELA4IBAQAFnRr2qniTefeW2bBE
+u6pBI6soi4m3rLjToZX+SWNQEgH6gqD/hUJ8jMwt5VRl6OOlyHbH8M+qYR8bhKGf
+bX99BqSOZPYWS58Yf6IWxY8QqULuwdJGBKGDsNXGBJAU1qDHLrTRbcC/R8RtEAPI
+tSpNohSTeSQd3eyzXVVrYClvHy37F73EfZsEKg/VcNEa/P6ow0laLPasCYHDeFUn
+kxVQvmqTpTcJSk//c//TDcCAZt9n2YT0C1dM6I9bhjQQpYElL1njwI+g4QOgrPN4
+bwHCc+1SpkcIrgN7Rgohw0zN3QX4z9YCOHR1/Bm0hZ0z3PYd2+7wsAAxJeX9apBR
+1Ssg
+-----END CERTIFICATE-----
+' | sudo tee /etc/docker/server.pem] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: -----BEGIN CERTIFICATE-----
+MIIC/zCCAemgAwIBAgIRANQZEYUqWKydg4rJljczMXowCwYJKoZIhvcNAQELMBEx
+DzANBgNVBAoTBmhvZWdoaDAeFw0xNTEyMTQxMTQ2MDBaFw0xODExMjgxMTQ2MDBa
+MBcxFTATBgNVBAoTDHRlc3Rzd2FybS0wMTCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMfzHcuMt5GmGmdUJZxrpRgWADUruutTpoAnhiikYcOQsfXMGuLk
+N7wGpKSngsIvpIESnGaQuasOVFYeVQuPvrhGMTANx5ugaeqzjxy4u8kySArDFXLt
+T15Fut5pwiUXPEJxHOfCvooeGDClhIUtqMaVFwrl5clh2JDZSyVE1T7/B2hB5Ngq
+YLH0NJlTbHzG8t39LVuQu0ldPzkx5L7EoDSemm5YZ5xhWVy8zoj5ObPHRPZq4rQO
+ZKVCaSgtXFG2R9AAYD4+UE3v7z0bIH9LdlNR5UqIOan1W9rk9QYPObuSO3Tc57cd
+Xo/0P1+zDR/ZISg9fH77o3lQ+jtbSx2gbjMCAwEAAaNQME4wDgYDVR0PAQH/BAQD
+AgCoMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAMBgNVHRMBAf8EAjAA
+MA8GA1UdEQQIMAaHBLk4uv0wCwYJKoZIhvcNAQELA4IBAQAFnRr2qniTefeW2bBE
+u6pBI6soi4m3rLjToZX+SWNQEgH6gqD/hUJ8jMwt5VRl6OOlyHbH8M+qYR8bhKGf
+bX99BqSOZPYWS58Yf6IWxY8QqULuwdJGBKGDsNXGBJAU1qDHLrTRbcC/R8RtEAPI
+tSpNohSTeSQd3eyzXVVrYClvHy37F73EfZsEKg/VcNEa/P6ow0laLPasCYHDeFUn
+kxVQvmqTpTcJSk//c//TDcCAZt9n2YT0C1dM6I9bhjQQpYElL1njwI+g4QOgrPN4
+bwHCc+1SpkcIrgN7Rgohw0zN3QX4z9YCOHR1/Bm0hZ0z3PYd2+7wsAAxJeX9apBR
+1Ssg
+-----END CERTIFICATE-----
+
+Using SSH client type: external
+About to run SSH command:
+printf '%s' '-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAx/Mdy4y3kaYaZ1QlnGulGBYANSu661OmgCeGKKRhw5Cx9cwa
+4uQ3vAakpKeCwi+kgRKcZpC5qw5UVh5VC4++uEYxMA3Hm6Bp6rOPHLi7yTJICsMV
+cu1PXkW63mnCJRc8QnEc58K+ih4YMKWEhS2oxpUXCuXlyWHYkNlLJUTVPv8HaEHk
+2CpgsfQ0mVNsfMby3f0tW5C7SV0/OTHkvsSgNJ6ablhnnGFZXLzOiPk5s8dE9mri
+tA5kpUJpKC1cUbZH0ABgPj5QTe/vPRsgf0t2U1HlSog5qfVb2uT1Bg85u5I7dNzn
+tx1ej/Q/X7MNH9khKD18fvujeVD6O1tLHaBuMwIDAQABAoIBAEAOv0jq+BSNZoAc
+EUCfq/Cfe8mNDQE/d2QvRWfX4gpJXPomPaba/pAagLzPfbDAmq9PSxQA4brPiG1e
+olhl4PAgbLm8cGqHZedvRzYoaOD4XuQzw7diF79YD5oZv70qSH/wxRXq6ihNo+pR
+3Lbd/ehA83TmWku+MSeWteBmwPrBH/zu2p0dqfLy17pxdQcvOcFh0S6NokF/wJXQ
+fA4Rn74yRSWe+OiVkhSYT376wLEpFSbM/EkqE8t+9zm8XuD/AbdD8VzUlbuPxbSm
+yRkqMImxl15R1A4TfmtIMsiS/a0TgtUeZM1hY7TxmWo1gahJNiRi/grvNWm/4vDb
+IqjlBqECgYEA+K/cS6HYFgYpt9T9DxUVjL3Owf9yc7sBHxHjedpwTuNPkzJE2kk0
+Yi9kbSNT/cwLOYoMaQxIt0TIHo1llYgTqP1PH3KWpjmhiAl1lPiHIL26310kmuMM
+RjKy2xS1jKFM5NZyBLjk8lGAhKmfmGhnc55tdogPX4M19IEjCRrs1O0CgYEAzdRb
+XLAAkAQnm5Mc3r0KGi55+8RO2IPAhSO7pGkpYHzWOuJ7c98q4njD3v3VOpbmJ51P
+LBU8FP8Yw75jZdzT/hgfUnD3Lc776mQehmfzxJbIg1GyZ9AiPQfBXa0x/211xO58
+INZx9acZYFcuLyWhyRMW9K0RbMVqgtEE9NqqC58CgYBdqYZz6dnDucB+nzZMNumt
+31L+1+HYWqc6d3dQTogb/hrbWoR6HjYfgK/3NuYMYYwcuLSh3+GHPN2OPDz1S5H0
+BKuHMZYxtuTyonVpjQz/tNWsCJ2fxEG8Mp4QS0VxWNLoIShCRQzdgvq/fE9CjJfi
+ANpDWU1I8NciZny2kjB+pQKBgFPWOVhpf/EpIBDoPQwkp6a+Y4U/EnZyQ8p3IYj4
+JJhegMv/UBWEQu14DyAW9/EjYZ+lHYhxJcXPmgCw3b+x0M9gd/GWfbe05Ts1iJFq
+agoa+JU0g5xxVGDTddl4IDNQHHYYRYsCjexnIZjyKaeehmVmVyVWERDi4F1kUcaC
+Al01AoGBANG4eRJAe+Uc4P8izY3T9Y772OqWve9xA4S6nNTBRxBW6UnVweHwvKhI
+gQgPyNn9+W60jyIpwJo+ql/QW5VW4ggxrNEWEHFDWkoLt8drbBQKn+tHT8OkNh9S
+aY6t12oxO1R8pNUETbGyMBqJSd0pv0fzA2zzCRFQfkbwgdyOv4xS
+-----END RSA PRIVATE KEY-----
+' | sudo tee /etc/docker/server-key.pem
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 printf '%s' '-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAx/Mdy4y3kaYaZ1QlnGulGBYANSu661OmgCeGKKRhw5Cx9cwa
+4uQ3vAakpKeCwi+kgRKcZpC5qw5UVh5VC4++uEYxMA3Hm6Bp6rOPHLi7yTJICsMV
+cu1PXkW63mnCJRc8QnEc58K+ih4YMKWEhS2oxpUXCuXlyWHYkNlLJUTVPv8HaEHk
+2CpgsfQ0mVNsfMby3f0tW5C7SV0/OTHkvsSgNJ6ablhnnGFZXLzOiPk5s8dE9mri
+tA5kpUJpKC1cUbZH0ABgPj5QTe/vPRsgf0t2U1HlSog5qfVb2uT1Bg85u5I7dNzn
+tx1ej/Q/X7MNH9khKD18fvujeVD6O1tLHaBuMwIDAQABAoIBAEAOv0jq+BSNZoAc
+EUCfq/Cfe8mNDQE/d2QvRWfX4gpJXPomPaba/pAagLzPfbDAmq9PSxQA4brPiG1e
+olhl4PAgbLm8cGqHZedvRzYoaOD4XuQzw7diF79YD5oZv70qSH/wxRXq6ihNo+pR
+3Lbd/ehA83TmWku+MSeWteBmwPrBH/zu2p0dqfLy17pxdQcvOcFh0S6NokF/wJXQ
+fA4Rn74yRSWe+OiVkhSYT376wLEpFSbM/EkqE8t+9zm8XuD/AbdD8VzUlbuPxbSm
+yRkqMImxl15R1A4TfmtIMsiS/a0TgtUeZM1hY7TxmWo1gahJNiRi/grvNWm/4vDb
+IqjlBqECgYEA+K/cS6HYFgYpt9T9DxUVjL3Owf9yc7sBHxHjedpwTuNPkzJE2kk0
+Yi9kbSNT/cwLOYoMaQxIt0TIHo1llYgTqP1PH3KWpjmhiAl1lPiHIL26310kmuMM
+RjKy2xS1jKFM5NZyBLjk8lGAhKmfmGhnc55tdogPX4M19IEjCRrs1O0CgYEAzdRb
+XLAAkAQnm5Mc3r0KGi55+8RO2IPAhSO7pGkpYHzWOuJ7c98q4njD3v3VOpbmJ51P
+LBU8FP8Yw75jZdzT/hgfUnD3Lc776mQehmfzxJbIg1GyZ9AiPQfBXa0x/211xO58
+INZx9acZYFcuLyWhyRMW9K0RbMVqgtEE9NqqC58CgYBdqYZz6dnDucB+nzZMNumt
+31L+1+HYWqc6d3dQTogb/hrbWoR6HjYfgK/3NuYMYYwcuLSh3+GHPN2OPDz1S5H0
+BKuHMZYxtuTyonVpjQz/tNWsCJ2fxEG8Mp4QS0VxWNLoIShCRQzdgvq/fE9CjJfi
+ANpDWU1I8NciZny2kjB+pQKBgFPWOVhpf/EpIBDoPQwkp6a+Y4U/EnZyQ8p3IYj4
+JJhegMv/UBWEQu14DyAW9/EjYZ+lHYhxJcXPmgCw3b+x0M9gd/GWfbe05Ts1iJFq
+agoa+JU0g5xxVGDTddl4IDNQHHYYRYsCjexnIZjyKaeehmVmVyVWERDi4F1kUcaC
+Al01AoGBANG4eRJAe+Uc4P8izY3T9Y772OqWve9xA4S6nNTBRxBW6UnVweHwvKhI
+gQgPyNn9+W60jyIpwJo+ql/QW5VW4ggxrNEWEHFDWkoLt8drbBQKn+tHT8OkNh9S
+aY6t12oxO1R8pNUETbGyMBqJSd0pv0fzA2zzCRFQfkbwgdyOv4xS
+-----END RSA PRIVATE KEY-----
+' | sudo tee /etc/docker/server-key.pem] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: -----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAx/Mdy4y3kaYaZ1QlnGulGBYANSu661OmgCeGKKRhw5Cx9cwa
+4uQ3vAakpKeCwi+kgRKcZpC5qw5UVh5VC4++uEYxMA3Hm6Bp6rOPHLi7yTJICsMV
+cu1PXkW63mnCJRc8QnEc58K+ih4YMKWEhS2oxpUXCuXlyWHYkNlLJUTVPv8HaEHk
+2CpgsfQ0mVNsfMby3f0tW5C7SV0/OTHkvsSgNJ6ablhnnGFZXLzOiPk5s8dE9mri
+tA5kpUJpKC1cUbZH0ABgPj5QTe/vPRsgf0t2U1HlSog5qfVb2uT1Bg85u5I7dNzn
+tx1ej/Q/X7MNH9khKD18fvujeVD6O1tLHaBuMwIDAQABAoIBAEAOv0jq+BSNZoAc
+EUCfq/Cfe8mNDQE/d2QvRWfX4gpJXPomPaba/pAagLzPfbDAmq9PSxQA4brPiG1e
+olhl4PAgbLm8cGqHZedvRzYoaOD4XuQzw7diF79YD5oZv70qSH/wxRXq6ihNo+pR
+3Lbd/ehA83TmWku+MSeWteBmwPrBH/zu2p0dqfLy17pxdQcvOcFh0S6NokF/wJXQ
+fA4Rn74yRSWe+OiVkhSYT376wLEpFSbM/EkqE8t+9zm8XuD/AbdD8VzUlbuPxbSm
+yRkqMImxl15R1A4TfmtIMsiS/a0TgtUeZM1hY7TxmWo1gahJNiRi/grvNWm/4vDb
+IqjlBqECgYEA+K/cS6HYFgYpt9T9DxUVjL3Owf9yc7sBHxHjedpwTuNPkzJE2kk0
+Yi9kbSNT/cwLOYoMaQxIt0TIHo1llYgTqP1PH3KWpjmhiAl1lPiHIL26310kmuMM
+RjKy2xS1jKFM5NZyBLjk8lGAhKmfmGhnc55tdogPX4M19IEjCRrs1O0CgYEAzdRb
+XLAAkAQnm5Mc3r0KGi55+8RO2IPAhSO7pGkpYHzWOuJ7c98q4njD3v3VOpbmJ51P
+LBU8FP8Yw75jZdzT/hgfUnD3Lc776mQehmfzxJbIg1GyZ9AiPQfBXa0x/211xO58
+INZx9acZYFcuLyWhyRMW9K0RbMVqgtEE9NqqC58CgYBdqYZz6dnDucB+nzZMNumt
+31L+1+HYWqc6d3dQTogb/hrbWoR6HjYfgK/3NuYMYYwcuLSh3+GHPN2OPDz1S5H0
+BKuHMZYxtuTyonVpjQz/tNWsCJ2fxEG8Mp4QS0VxWNLoIShCRQzdgvq/fE9CjJfi
+ANpDWU1I8NciZny2kjB+pQKBgFPWOVhpf/EpIBDoPQwkp6a+Y4U/EnZyQ8p3IYj4
+JJhegMv/UBWEQu14DyAW9/EjYZ+lHYhxJcXPmgCw3b+x0M9gd/GWfbe05Ts1iJFq
+agoa+JU0g5xxVGDTddl4IDNQHHYYRYsCjexnIZjyKaeehmVmVyVWERDi4F1kUcaC
+Al01AoGBANG4eRJAe+Uc4P8izY3T9Y772OqWve9xA4S6nNTBRxBW6UnVweHwvKhI
+gQgPyNn9+W60jyIpwJo+ql/QW5VW4ggxrNEWEHFDWkoLt8drbBQKn+tHT8OkNh9S
+aY6t12oxO1R8pNUETbGyMBqJSd0pv0fzA2zzCRFQfkbwgdyOv4xS
+-----END RSA PRIVATE KEY-----
+
+Using SSH client type: external
+About to run SSH command:
+printf "
+DOCKER_OPTS='
+-H tcp://0.0.0.0:2376
+-H unix:///var/run/docker.sock
+--storage-driver aufs
+--tlsverify
+--tlscacert /etc/docker/ca.pem
+--tlscert /etc/docker/server.pem
+--tlskey /etc/docker/server-key.pem
+--label provider=openstack
+
+'
+" | sudo tee /etc/default/docker
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 printf "
+DOCKER_OPTS='
+-H tcp://0.0.0.0:2376
+-H unix:///var/run/docker.sock
+--storage-driver aufs
+--tlsverify
+--tlscacert /etc/docker/ca.pem
+--tlscert /etc/docker/server.pem
+--tlskey /etc/docker/server-key.pem
+--label provider=openstack
+
+'
+" | sudo tee /etc/default/docker] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: 
+DOCKER_OPTS='
+-H tcp://0.0.0.0:2376
+-H unix:///var/run/docker.sock
+--storage-driver aufs
+--tlsverify
+--tlscacert /etc/docker/ca.pem
+--tlscert /etc/docker/server.pem
+--tlskey /etc/docker/server-key.pem
+--label provider=openstack
+
+'
+
+Using SSH client type: external
+About to run SSH command:
+sudo service docker start
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 sudo service docker start] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: docker start/running, process 30110
+
+Daemon not responding yet: dial tcp 185.56.186.253:2376: connection refused
+Using SSH client type: external
+About to run SSH command:
+sudo docker pull swarm:latest
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 sudo docker pull swarm:latest] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: latest: Pulling from library/swarm
+d681c900c6e3: Pulling fs layer
+188de6f24f3f: Pulling fs layer
+90b2ffb8d338: Pulling fs layer
+237af4efea94: Pulling fs layer
+3b3fc6f62107: Pulling fs layer
+7e6c9135b308: Pulling fs layer
+986340ab62f0: Pulling fs layer
+a9975e2cc0a3: Pulling fs layer
+a9975e2cc0a3: Verifying Checksum
+a9975e2cc0a3: Download complete
+7e6c9135b308: Verifying Checksum
+7e6c9135b308: Download complete
+986340ab62f0: Verifying Checksum
+986340ab62f0: Download complete
+237af4efea94: Verifying Checksum
+237af4efea94: Download complete
+3b3fc6f62107: Verifying Checksum
+3b3fc6f62107: Download complete
+188de6f24f3f: Verifying Checksum
+188de6f24f3f: Download complete
+90b2ffb8d338: Verifying Checksum
+90b2ffb8d338: Download complete
+d681c900c6e3: Verifying Checksum
+d681c900c6e3: Download complete
+d681c900c6e3: Pull complete
+188de6f24f3f: Pull complete
+90b2ffb8d338: Pull complete
+237af4efea94: Pull complete
+3b3fc6f62107: Pull complete
+7e6c9135b308: Pull complete
+986340ab62f0: Pull complete
+a9975e2cc0a3: Pull complete
+Digest: sha256:c21fd414b0488637b1f05f13a59b032a3f9da5d818d31da1a4ca98a84c0c781b
+Status: Downloaded newer image for swarm:latest
+
+Launch swarm worker
+The swarm command being run is: sudo docker run -d \
+--restart=always \
+--name swarm-agent \
+swarm:latest \
+join --addr 185.56.186.253:2376 token://13c816113e79bfe4f3e2562e5436c40a
+
+Using SSH client type: external
+About to run SSH command:
+sudo docker run -d \
+--restart=always \
+--name swarm-agent \
+swarm:latest \
+join --addr 185.56.186.253:2376 token://13c816113e79bfe4f3e2562e5436c40a
+
+&{/usr/bin/ssh [/usr/bin/ssh -o PasswordAuthentication=no -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=quiet -o ConnectionAttempts=3 -o ConnectTimeout=10 -i /home/hoeghh/.docker/machine/machines/testswarm-01/id_rsa -p 22 ubuntu@185.56.186.253 sudo docker run -d \
+--restart=always \
+--name swarm-agent \
+swarm:latest \
+join --addr 185.56.186.253:2376 token://13c816113e79bfe4f3e2562e5436c40a
+] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> false [] [] [] [] <nil>}
+SSH cmd err, output: <nil>: d7e95847455b4d38eb5ffe3194f08b705d1355aa53116b5003f3e43c07a29654
+
+To see how to connect Docker to this machine, run: docker-machine env testswarm-01

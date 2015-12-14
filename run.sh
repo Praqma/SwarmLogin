@@ -19,23 +19,46 @@ export OS_PASSWORD=$OS_PASSWORD_INPUT
 export OS_TENANT_NAME=standard
 export OS_DOMAIN_NAME=praqma
 
-swarmid=$(docker run swarm create)
-createOpenStackInstance testswarm-m 6 $swarmid 1 &
-createOpenStackInstance testswarm-01 6 $swarmid 0 &
-createOpenStackInstance testswarm-01 6 $swarmid 1 &
-
-wait
-
-eval $(docker-machine env --swarm testswarm-m)
 
 # Build our Apache PHP container
 (cd images/web/context
-docker build -t swarmlogin/php:latest .)
+docker build -t hoeghh/php:latest .
+docker push hoeghh/php:latest
+)
+
+# Create an Instance for MySQL to run on
+createOpenStackSwarmInstance test-sql 6  > ./logs/openstack-sql 2>&1
+mysqlIP=$(docker-machine ip tests-sql)
+
+# Point docker client at testswarm-sql
+eval $(docker-machine env test-sql)
 
 # Build our MySql database container
 (cd images/mysql/context
-docker build -t swarmlogin/mysql:latest .)
+docker build -t hoeghh/mysql:latest .)
+
+# Run MySQL on OpenStack instance
+docker run -d -p 3306:3306 -h mysql -e MYSQL_ROOT_PASSWORD=password hoeghh/mysql:latest
+
+echo "Please press Enter to continue"
+read -sr contunue
+
+
+swarmid=$(docker run swarm create)
+echo "Swarm ID : $swarmid" > ./logs/swarmid.txt
+
+echo " - Creating Swarm master instance"
+createOpenStackSwarmInstance testswarm-00 6 "$swarmid" 1  > ./logs/openstack-00 2>&1 
+
+echo " - Creating Swarm slave instance 01"
+createOpenStackSwarmInstance testswarm-01 6 "$swarmid" 0  > ./logs/openstack-01 2>&1 
+
+
+# Point docker client at swarm master
+eval $(docker-machine env --swarm testswarm-00)
+
 
 # Start docker-compose
 (cd compose
-docker-compose up)
+docker-compose up -d
+docker-compose scale php=2)
