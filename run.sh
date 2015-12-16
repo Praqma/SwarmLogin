@@ -30,7 +30,9 @@ docker push hoeghh/php:latest
 echo " - Creating MySQL instance"
 createOpenStackSwarmInstance test-sql 6  > ./logs/openstack-sql 2>&1
 wait 5
-mysqlIP=$(docker-machine ip test-sql)
+# Get the internal IP of the mysql host machine. Not pretty...
+#mysqlIP=$(docker-machine ip test-sql)
+mysqlIP=$(docker-machine ssh test-sql ifconfig eth0|grep "inet addr"|cut -d":" -f2|cut -d" " -f1)
 
 # Point docker client at testswarm-sql
 eval $(docker-machine env test-sql)
