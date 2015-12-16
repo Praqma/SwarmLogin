@@ -27,7 +27,9 @@ docker push hoeghh/php:latest
 )
 
 # Create an Instance for MySQL to run on
+echo " - Creating MySQL instance"
 createOpenStackSwarmInstance test-sql 6  > ./logs/openstack-sql 2>&1
+wait 5
 mysqlIP=$(docker-machine ip tests-sql)
 
 # Point docker client at testswarm-sql
