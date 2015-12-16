@@ -40,10 +40,6 @@ docker build -t hoeghh/mysql:latest .)
 # Run MySQL on OpenStack instance
 docker run -d -p 3306:3306 -h mysql -e MYSQL_ROOT_PASSWORD=password hoeghh/mysql:latest
 
-echo "Please press Enter to continue"
-read -sr contunue
-
-
 swarmid=$(docker run swarm create)
 echo "Swarm ID : $swarmid" > ./logs/swarmid.txt
 
@@ -60,5 +56,16 @@ eval $(docker-machine env --swarm testswarm-00)
 
 # Start docker-compose
 (cd compose
+cat << EOF > docker-compose.yml
+php:
+  image: hoeghh/php
+  expose:
+    - "80"
+  ports:
+    - "80:80"
+  environment:
+    - git_repo=https://github.com/Praqma/web-deployment-poc-code.git
+    - mysql_ip=$mysqlIP
+EOF
 docker-compose up -d
 docker-compose scale php=2)
